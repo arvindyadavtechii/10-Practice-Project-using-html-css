@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.herosection {
+  background-image: url("img-1.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.textarea h2,
+h3 {
+  max-width: 900px;
+  color: rgb(252, 246, 246);
+  margin: 0 auto;
+  font-size: 50px;
+  text-shadow: 3px 4px 10px rgb(10, 245, 245);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textarea h2 {
+  padding-top: 150px;
+}
+
+.textarea h3 {
+  padding-top: 10px;
+}
+
+.blackbox {
+  background-color: black;
+  padding: 15px;
+  box-shadow: 3px 4px 20px beige;
+}
+
+.blackbox h2 {
+  color: aliceblue;
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 3px 4px 10px rgb(168, 27, 2);
+}
+
+.blackbox span {
+  font-weight: bold;
+  font-size: 80px;
+  text-shadow: 3px 4px 10px rgb(194, 9, 201);
+}
+
+.works {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  gap: 30px;
+  background-color:#323b32f0;
+  flex-wrap: wrap; /* Allow wrapping of cards */
+}
+
+.cards {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 6px rgb(45, 241, 255);
+  height: auto; /* Allow height to adjust based on content */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.945);
+  font-size: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+.img-container img {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.cards:hover {
+  transform: scale(1.1); /* Use transform instead of scale */
+  box-shadow: 3px 5px 6px rgb(214, 200, 211);
+  transition: 0.2s ease-in-out;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  height: auto; /* Allow height to adjust based on content */
+}
+
+.contact,
+.about {
+  padding: 20px;
+  color: white;
+}
+
+.contact {
+  background-color: rgb(233, 111, 30);
+}
+
+.about {
+  background-color: rgb(27, 97, 15);
+}
+
+.bottom-section h2 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 3px 4px 5px rgb(29, 26, 26);
+}
+
+.bottom-section p {
+  font-weight: bold;
+  font-size: 17px;
+  text-shadow: 3px 4px 5px rgb(29, 26, 26);
+}
+
+footer {
+  background-color: black;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 786px) {
+  .herosection {
+    min-height: 50vh;
+  }
+
+  .textarea h2,
+  h3 {
+    text-align: center;
+    font-size: 30px;
+    min-width: 200px;
+  }
+
+  .blackbox h2 {
+    font-size: 25px;
+  }
+
+  .blackbox span {
+    font-size: 30px;
+  }
+
+  .works {
+    display: grid;
+  }
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+  }
+.cards{
+  transition: 0.2s ease-in-out;
+  margin: 10px;
+}
+
+.cards:hover {
+  transform: scale(1.1); /* Use transform instead of scale */
+  transition: 0.2s ease-in-out;
+}
+
+}
