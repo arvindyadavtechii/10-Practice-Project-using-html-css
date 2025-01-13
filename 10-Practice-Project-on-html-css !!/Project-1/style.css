@@ -1,0 +1,141 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+.container{
+    background-color: #123524;
+    min-height: 100vh;
+    border:10px solid #071f15;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main_section{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_section h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #B6CBBD;
+}
+
+.main_section h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+}
+
+.main_img{
+    border-radius: 10%;
+    overflow: hidden;
+    border:2px solid white;
+    max-width: 100%;
+    height: 250px;
+    box-shadow: -02px -3px 5px rgb(47, 255, 245);
+}
+.main_img img{
+    width: 300px;
+    height: 250px;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0px 8px 0px ;
+    text-decoration: underline;
+    color: #3E7B27;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 0px 8px 0px;
+    color: #85A947;
+}
+
+p{
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 8px;
+    color: #EFE3C2;
+}
+
+footer p{
+    text-align: center;
+    padding: 10px 0px 7px 10px;
+    margin-right: 20px;
+}
+footer a {
+    color: rgb(252, 33, 17);
+}
+
+@media (max-width:786px) {
+
+    .main_section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .main_section h1 {
+        font-size: 35px;
+    }
+
+    .main_section h2 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .bio h3,h4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bio h3 {
+        font-size: 20px;
+        box-shadow: 0px 4px 5px rgb(138, 243, 17);
+        border-top: 2px solid rgb(138, 243, 17);
+        padding-bottom: 20px ;
+        text-decoration: none;
+    }
+
+    .bio h4 {
+        font-size: 16px;
+        padding-top: 20px;
+        text-decoration: underline;
+    }
+
+    .bio p {
+        display: flex;
+        font-size: 13px;
+        margin: 6px;
+        text-align: center;
+        word-spacing: 0px;
+        padding-top: 20px;
+    }
+
+    #first{
+        margin-top: 30px;
+    }
+
+    .main_img{
+        box-shadow: -02px -3px 5px rgb(47, 255, 245);
+        transition: 0.1s ease-in-out;
+    }
+
+    .main_img:hover {
+        transform: scale(1.1);
+        transition: 0.1s ease-in-out;
+    }
+}
