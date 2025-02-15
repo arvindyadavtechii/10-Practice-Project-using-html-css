@@ -1,2 +1,1 @@
-# 10-Practice-Project-on-html-css
-In this Repository I used my html css skills for making 10 html css practice projects....
+In this repositiory I build 10-Practice-Project using Html & css !!
