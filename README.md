@@ -7,7 +7,7 @@ Welcome to my repository of **10 HTML & CSS Practice Projects**! This repository
 Here’s a list of the 10 projects included in this repository. All project Preview LINK :
 
 
-[Click Here !!](https://10-practice-project-on-html-css.vercel.app/)                        |
+[Click Here !!](https://10-practice-project-on-html-css.vercel.app/)
 
 ---
 
@@ -39,8 +39,8 @@ Each project is organized in its own folder. Inside each folder, you’ll find:
 Navigate to a Project Folder
 
 2.bash
-Copy
 cd arvindyadavtechii/10-Practice-Project-using-html-css
+
 3.Open the Project
 Open the index.html file in your browser to view the project.
 
