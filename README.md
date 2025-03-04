@@ -39,7 +39,7 @@ Each project is organized in its own folder. Inside each folder, you’ll find:
 Navigate to a Project Folder
 
 2. ```bashcd
-   10-Practice-Project-using-html-css
+   cd 10-Practice-Project-using-html-css
 
 3.Open the Project
 Open the index.html file in your browser to view the project.
