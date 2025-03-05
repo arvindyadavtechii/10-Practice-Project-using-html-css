@@ -31,22 +31,6 @@ Each project is organized in its own folder. Inside each folder, you’ll find:
 
 ---
 
-## 🎯 How to Use This Repository
-
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/arvindyadavtechii/10-Practice-Project-using-html-css
-Navigate to a Project Folder
-
-2. ```bashcd
-   cd 10-Practice-Project-using-html-css
-
-3.Open the Project
-Open the index.html file in your browser to view the project.
-
-4.Practice and Experiment
-Feel free to modify the code, experiment with new styles, and add your own features.
-
 📚 Learning Resources
 If you’re new to HTML and CSS, here are some resources to get started:
 
